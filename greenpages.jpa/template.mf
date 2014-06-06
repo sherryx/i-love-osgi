@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GreenPages JPA
+Bundle-SymbolicName: greenpages.jpa
+Bundle-Vendor: SpringSource
+Bundle-Version: 2.5.0
+Import-Template: 
+ org.springframework.*;version="[3.0, 3.5)",
+ greenpages;version="[2.5, 2.6)",
+ org.apache.commons.dbcp.*;version="[1.2.2.osgi, 1.2.2.osgi]",
+ javax.sql;version="0"
+Import-Bundle: 
+ org.eclipse.persistence.jpa;version="[2.4.0.v20120608-r11652,2.4.0.v20120608-r11652]",
+ org.eclipse.persistence.core;version="[2.4.0.v20120608-r11652,2.4.0.v20120608-r11652]",
+ org.eclipse.persistence.jpa.jpql;version="[2.0.0.v20120608-r11652,2.0.0.v20120608-r11652]",
+ org.eclipse.persistence.antlr;version="[3.2.0.v201206041011,3.2.0.v201206041011]",
+ org.eclipse.persistence.asm;version="[3.3.1.v201206041142,3.3.1.v201206041142]"
+Import-Package: 
+ javax.persistence;version="[2.0.4,2.0.4]",
+ javax.persistence.criteria;version="[2.0.4,2.0.4]",
+ org.springframework.context.weaving;version="[3.0,3.5)",
+ org.springframework.transaction.aspectj;version="[3.0,3.5)"
+Excluded-Exports: 
+ greenpages.jpa
+Excluded-Imports: 
+ org.springframework.test.*,
+ org.junit.*
