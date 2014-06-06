@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rest Service
+Bundle-SymbolicName: rest.core
+Bundle-Vendor: SpringSource Inc.
+Bundle-Version: 2.5.0
+Import-Template: 
+ org.springframework.*;version="[3.0, 3.5)"
+Excluded-Exports: rest.core.impl
+Import-Library: org.springframework.spring;version="[3.1.0.RELEASE,3.2.5.RELEASE]"
