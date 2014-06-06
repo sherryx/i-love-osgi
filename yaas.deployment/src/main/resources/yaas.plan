@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan name="yaas.deployment" version="1.0.0" scoped="true" atomic="false" xmlns="http://www.springsource.org/schema/dm-server/plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+            http://www.springsource.org/schema/dm-server/plan 
+            http://www.springsource.org/schema/dm-server/plan/springsource-dm-server-plan.xsd">
+
+    <!-- artifact type="configuration" name="app-properties" version="1.0.0"/ -->
+    <!-- artifact type="bundle" name="rest.core" version="[2.5.0, 2.6.0]" />
+        <artifact type="bundle" name="rest.web" version="[2.5.0, 2.5.0]" /-->
+    <artifact type="bundle" name="faces.web" version="[2.5.0, 2.5.0]" />
+</plan>
