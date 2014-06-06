@@ -1,0 +1,11 @@
+<!DOCTYPE aspectj PUBLIC
+        "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+    <weaver options="-verbose -debug">
+        <include within="rest.web..*" />
+    </weaver>
+    <aspects>
+        <!-- aspect name="br.com.autmix.web.gui.aspect.i18n.I18NAspect" />
+        <aspect name="br.com.autmix.web.gui.aspect.i18n.I18NVaadinAspect" /-->
+    </aspects>
+</aspectj>
