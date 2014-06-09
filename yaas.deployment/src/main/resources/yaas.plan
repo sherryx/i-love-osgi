@@ -4,7 +4,9 @@
             http://www.springsource.org/schema/dm-server/plan/springsource-dm-server-plan.xsd">
 
     <!-- artifact type="configuration" name="app-properties" version="1.0.0"/ -->
-    <!-- artifact type="bundle" name="rest.core" version="[2.5.0, 2.6.0]" />
-        <artifact type="bundle" name="rest.web" version="[2.5.0, 2.5.0]" /-->
-    <artifact type="bundle" name="faces.web" version="[2.5.0, 2.5.0]" />
+    <!-- artifact type="bundle" name="rest.core" version="[2.5.0, 2.6.0]" /-->
+        <!-- artifact type="bundle" name="rest.web" version="[2.5.0, 2.5.0]" /-->
+    <!-- artifact type="bundle" name="faces.web" version="[2.5.0, 2.5.0]" /-->
+     <artifact type="bundle" name="poc.faces.web.bnd" version="[2.5.0, 2.5.0]" />
+     <!-- artifact type="bundle" name="poc.rest.core.bnd" version="[2.5.0, 2.6.0]" /-->
 </plan>
