@@ -14,7 +14,7 @@ public class RestResponseImpl implements RestResponse {
    public ResponseEntity<String> createResponseEntity( String json, HttpStatus status ) {
       HttpHeaders headers = new HttpHeaders();
       headers.add( "Content-Type", "application/json; charset=utf-8" );
-      return new ResponseEntity<String>("update from rest bnd:"+ json + "\n", headers, status );
+      return new ResponseEntity<String>("update from rest bnd1:"+ json + "\n", headers, status );
    }
 
 }

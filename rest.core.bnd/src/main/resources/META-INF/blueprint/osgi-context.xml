@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+    <!-- uncomment the line below to publish the mock Directory into the OSGi service registry -->
+
+    <service interface="rest.core.api.RestResponse" ref="restResponse" />
+
+</blueprint>
